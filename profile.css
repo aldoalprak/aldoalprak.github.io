@@ -1,0 +1,142 @@
+*{
+  magin:0;
+  padding:0;
+}
+body {
+  font-family: 'Share Tech Mono',monospace;
+  background-image:url("https://www.dropbox.com/s/i3629ec0y4iiuz5/abstract-1900557_960_720.jpg?raw=1")
+}
+/* navigation */
+.navbar {
+  
+  position:fixed;
+  z-index:1;
+  width:100%;
+  height:50px;
+  top:0;
+  left:0;
+  background-color:grey;
+  
+}
+.navbar p {
+  float:left;
+  margin-left:20px;
+  font-weight:bold;
+  font-size:20px;
+  color: ;
+}
+.navlist li {
+  display: inline-block;
+  width: 90px;
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  padding:0 15px 0 15px;
+  
+}
+
+.navlist li a {
+  text-decoration:none;
+  color:white;
+}
+
+.navlist li a:hover {
+  background-color:black;
+}
+/*profile*/
+#profile {
+  border-style: solid;
+  margin:100px 40px 30px 40px;
+  box-sizing: border-box;
+  padding: 0 20px 0 20px;
+  background-color:SpringGreen;
+}
+
+#image {
+  text-align:center;
+}
+img {
+  border-radius:70%;
+  
+  margin: 70px
+}
+
+.fa {
+  cursor:point;
+}
+.fa-free-code-camp{
+  width:250px;
+  background-color:green;
+  
+}
+
+.fa-github{
+  width:250px;
+  background-color:grey;
+}
+
+.fa-linkedin{
+  width:250px;
+  background-color:#0077B5;
+}
+
+
+/*about*/
+#about {
+  border-style:solid ;
+  margin:100px 40px 30px 40px;
+  padding: 0 20px 0 20px;
+  background-color:Gold;
+}
+
+/*experience*/
+#experience {
+  border-style:solid;
+  margin:100px 40px 30px 40px;
+  padding: 0 20px 0 20px;
+  background-color:aqua;
+}
+/*education*/
+#education {
+  border-style:solid;
+  margin:100px 40px 30px 40px;
+  padding: 0 20px 0 20px;
+  background-color:coral;
+}
+
+/*skill*/
+#skill {
+  border-style:solid;
+  margin:100px 40px 30px 40px;
+  padding: 0 20px 0 20px;
+  background-color:wheat;
+}
+
+#skillList {
+  padding-left:28px;
+}
+
+/*project*/
+#project {
+  border-style:solid;
+  margin:100px 40px 30px 40px;
+  padding: 0 20px 0 20px;
+  background-color:Sienna;
+}
+
+/*etc*/
+hr{
+	border-top: 6px double black;
+}
+
+h1 {
+  text-align:center;
+}
+
+#caption {
+  text-align:center;
+}
+
+#workTitle {
+  color:grey;
+}
