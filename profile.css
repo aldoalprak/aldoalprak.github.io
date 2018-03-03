@@ -124,9 +124,18 @@ img {
   background-color:Sienna;
 }
 
+/*blog*/
+#blog {
+  border-style:solid;
+  margin:100px 40px 30px 40px;
+  padding: 0 20px 0 20px;
+  background-color:grey;
+
+
+
 /*etc*/
 hr{
-	border-top: 6px double black;
+  border-top: 6px double black;
 }
 
 h1 {
